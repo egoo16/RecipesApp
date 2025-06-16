@@ -29,7 +29,7 @@ Scan the QR code with your device or run on an emulator.
 No additional environment variables are required; the app uses the public MealDB test API key (1).
 
 ## Directory Structure
-
+```
 modules/recipe/        # Feature-specific screens and services
 │       ├──components/        # Reusable UI components (ListComponent, CardMeal, LoadingScreen, ErrorMessage)
 │       ├── views/     # Screen components (ListMeal, DetailRecipe)
@@ -39,7 +39,7 @@ modules/recipe/        # Feature-specific screens and services
 │       └── utils/     # Services utils in the project
 │       └── services/  # RTK Query API slice
 ├── store/             # Redux store setup (RTK Query integration)
-
+```
 
 ## Assumptions & Questions
 Home Screen
